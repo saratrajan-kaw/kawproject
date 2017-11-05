@@ -21196,11 +21196,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/anthonypramodmanjali/Projects/KAWApp/MobileAppService/KAWApp.MobileAppService.csproj",
+      "projectUniqueName": "/Users/anthonypramodmanjali/Documents/GitHub/kawproject/MobileAppService/KAWApp.MobileAppService.csproj",
       "projectName": "KAWApp.MobileAppService",
-      "projectPath": "/Users/anthonypramodmanjali/Projects/KAWApp/MobileAppService/KAWApp.MobileAppService.csproj",
+      "projectPath": "/Users/anthonypramodmanjali/Documents/GitHub/kawproject/MobileAppService/KAWApp.MobileAppService.csproj",
       "packagesPath": "/Users/anthonypramodmanjali/.nuget/packages/",
-      "outputPath": "/Users/anthonypramodmanjali/Projects/KAWApp/MobileAppService/obj",
+      "outputPath": "/Users/anthonypramodmanjali/Documents/GitHub/kawproject/MobileAppService/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/anthonypramodmanjali/.config/NuGet/NuGet.Config"

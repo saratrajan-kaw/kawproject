@@ -66,3 +66,6 @@
 /Users/anthonypramodmanjali/Projects/KAWApp/Droid/bin/Debug/Xamarin.Forms.Core.dll.mdb
 /Users/anthonypramodmanjali/Projects/KAWApp/Droid/bin/Debug/Xamarin.Forms.Platform.Android.dll.mdb
 /Users/anthonypramodmanjali/Projects/KAWApp/Droid/bin/Debug/Xamarin.Forms.Xaml.dll.mdb
+/Users/anthonypramodmanjali/Documents/GitHub/kawproject/Droid/obj/Debug/KAWApp.Droid.csprojResolveAssemblyReference.cache
+/Users/anthonypramodmanjali/Documents/GitHub/kawproject/Droid/obj/Debug/KAWApp.Droid.dll
+/Users/anthonypramodmanjali/Documents/GitHub/kawproject/Droid/obj/Debug/KAWApp.Droid.pdb
