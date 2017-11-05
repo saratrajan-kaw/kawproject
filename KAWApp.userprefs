@@ -1,33 +1,5 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="KAWApp/Views/MainPage.cs">
-    <Files>
-      <File FileName="KAWApp/Views/MainPage.cs" Line="1" Column="1" />
-      <File FileName="KAWApp/Views/NewItemPage.xaml" Line="15" Column="1" />
-      <File FileName="KAWApp/Views/ItemsPage.xaml" Line="23" Column="1" />
-      <File FileName="KAWApp/Views/ItemDetailPage.xaml" Line="8" Column="1" />
-      <File FileName="KAWApp/Views/AboutPage.xaml" Line="61" Column="1" />
-      <File FileName="KAWApp/Views/AboutPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="KAWApp/Views/EventsPage.xaml" Line="23" Column="1" />
-      <File FileName="KAWApp/Views/EventsPage.cs" Line="1" Column="1" />
-      <File FileName="KAWApp/Views/OffersPage.xaml" Line="23" Column="1" />
-      <File FileName="KAWApp/Views/OffersPage.cs" Line="1" Column="1" />
-      <File FileName="KAWApp/Views/PicturesPage.xaml" Line="23" Column="1" />
-      <File FileName="KAWApp/Views/PicturesPage.cs" Line="1" Column="1" />
-      <File FileName="KAWApp/Views/SponsorsPage.xaml" Line="23" Column="1" />
-      <File FileName="KAWApp/Views/SponsorsPage.cs" Line="1" Column="1" />
-      <File FileName="KAWApp/Views/ItemsPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="KAWApp/ViewModels/ItemsViewModel.cs" Line="1" Column="1" />
-      <File FileName="KAWApp/ViewModels/EventsViewModel.cs" Line="1" Column="1" />
-      <File FileName="KAWApp/ViewModels/PicturesViewModel.cs" Line="1" Column="1" />
-      <File FileName="KAWApp/ViewModels/OffersViewModel.cs" Line="1" Column="1" />
-      <File FileName="KAWApp/ViewModels/ItemDetailViewModel.cs" Line="1" Column="1" />
-      <File FileName="KAWApp/ViewModels/SponsorsViewModel.cs" Line="1" Column="1" />
-      <File FileName="KAWApp/Services/MockDataStore.cs" Line="1" Column="1" />
-      <File FileName="KAWApp/Services/CloudDataStore.cs" Line="1" Column="1" />
-      <File FileName="KAWApp/ViewModels/AboutViewModel.cs" Line="1" Column="1" />
-      <File FileName="KAWApp/ViewModels/BaseViewModel.cs" Line="1" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{4A22A1EF-8443-4A02-B913-1267DDFF2A6A}|Default">
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
