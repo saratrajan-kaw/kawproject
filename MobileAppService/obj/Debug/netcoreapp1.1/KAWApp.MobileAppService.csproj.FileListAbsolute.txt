@@ -1,0 +1,11 @@
+/Users/anthonypramodmanjali/Documents/GitHub/kawproject/MobileAppService/bin/Debug/netcoreapp1.1/KAWApp.MobileAppService.deps.json
+/Users/anthonypramodmanjali/Documents/GitHub/kawproject/MobileAppService/bin/Debug/netcoreapp1.1/KAWApp.MobileAppService.runtimeconfig.json
+/Users/anthonypramodmanjali/Documents/GitHub/kawproject/MobileAppService/bin/Debug/netcoreapp1.1/KAWApp.MobileAppService.runtimeconfig.dev.json
+/Users/anthonypramodmanjali/Documents/GitHub/kawproject/MobileAppService/bin/Debug/netcoreapp1.1/KAWApp.MobileAppService.dll
+/Users/anthonypramodmanjali/Documents/GitHub/kawproject/MobileAppService/bin/Debug/netcoreapp1.1/KAWApp.MobileAppService.pdb
+/Users/anthonypramodmanjali/Documents/GitHub/kawproject/MobileAppService/obj/Debug/netcoreapp1.1/KAWApp.MobileAppService.csprojResolveAssemblyReference.cache
+/Users/anthonypramodmanjali/Documents/GitHub/kawproject/MobileAppService/obj/Debug/netcoreapp1.1/KAWApp.MobileAppService.csproj.CoreCompileInputs.cache
+/Users/anthonypramodmanjali/Documents/GitHub/kawproject/MobileAppService/obj/Debug/netcoreapp1.1/KAWApp.MobileAppService.AssemblyInfoInputs.cache
+/Users/anthonypramodmanjali/Documents/GitHub/kawproject/MobileAppService/obj/Debug/netcoreapp1.1/KAWApp.MobileAppService.AssemblyInfo.cs
+/Users/anthonypramodmanjali/Documents/GitHub/kawproject/MobileAppService/obj/Debug/netcoreapp1.1/KAWApp.MobileAppService.dll
+/Users/anthonypramodmanjali/Documents/GitHub/kawproject/MobileAppService/obj/Debug/netcoreapp1.1/KAWApp.MobileAppService.pdb
