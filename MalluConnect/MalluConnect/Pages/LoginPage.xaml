@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MalluConnect.Pages.LoginPage"
+    xmlns:Common="clr-namespace:MalluConnect.Resources;assembly=MalluConnect">
+    <ContentPage.Content>
+        
+            <Grid>
+                <Image Source="VioletBlurBG.png" Aspect="AspectFill"></Image>
+            <ScrollView>
+                <Grid Padding="20, 30, 20, 20" RowSpacing="20">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="60" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+      </Grid.RowDefinitions>
+
+      <Image Source="logo.png" HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="0">
+      </Image>
+
+      <Grid Grid.Row="2" HorizontalOptions="Fill" Padding="5">
+        <Grid.RowDefinitions>
+          <RowDefinition Height="Auto" />
+          <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="Auto"/>
+          <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Image Source="iconUsername.png" HeightRequest="30" VerticalOptions="Center" Grid.Row="0" Grid.Column="0"/>
+        <Entry Placeholder="Username" Keyboard="Email" BackgroundColor="Transparent" HorizontalOptions="Fill" TextColor="White" Grid.Row="0" Grid.Column="1"/>
+      </Grid>
+      <Grid Grid.Row="3" HorizontalOptions="Fill" Padding="5">
+        <Grid.RowDefinitions>
+          <RowDefinition Height="Auto" />
+          <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="Auto"/>
+          <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Image Source="iconPassword.png" HeightRequest="30" VerticalOptions="Center" />
+        <Entry Placeholder="Password" IsPassword="True" BackgroundColor="Transparent" HorizontalOptions="Fill" TextColor="White" Grid.Row="0" Grid.Column="1"/>
+      </Grid>
+      <StackLayout Grid.Row="4" Spacing="40" HorizontalOptions="Fill" Padding="{x:Static Common:DoubleResources.ButtonGroupPadding}">
+        <Button Text="Sign In" BackgroundColor="#1FBED6" HorizontalOptions="Fill" TextColor="White" HeightRequest="{x:Static Common:DoubleResources.ButtonHeight}" Clicked="SignIn_Clicked"/>
+
+        <Image Source="fblogin.png" HorizontalOptions="Fill" HeightRequest="{x:Static Common:DoubleResources.FBButtonHeight}">
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer
+                Tapped="SignIn_Clicked"
+                NumberOfTapsRequired="1" />
+           </Image.GestureRecognizers>
+        </Image>
+        <StackLayout>
+         <Label Text="Or click here to sign up using your email address"  HorizontalOptions="FillAndExpand" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" VerticalOptions="FillAndExpand" HeightRequest="{x:Static Common:DoubleResources.ButtonHeight}" TextColor="White" FontSize="12">
+          <Label.GestureRecognizers>
+                <TapGestureRecognizer
+                Tapped="OnSignUpTextTapped"
+                NumberOfTapsRequired="1" />
+           </Label.GestureRecognizers>
+          </Label></StackLayout>
+          
+
+      </StackLayout>
+      </Grid>
+                 </ScrollView>
+            </Grid>
+    
+ 
+    </ContentPage.Content>
+</ContentPage>

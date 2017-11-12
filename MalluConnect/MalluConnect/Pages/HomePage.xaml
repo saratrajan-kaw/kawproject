@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MalluConnect.Pages.HomePage"
+    xmlns:pages="clr-namespace:MalluConnect.Pages;assembly=MalluConnect">
+    <TabbedPage.Children>
+    <pages:FeedPage/>
+     <pages:AccountPage/>
+     <pages:EventPage/>
+     <pages:ServicePage/>
+        </TabbedPage.Children>
+</TabbedPage>

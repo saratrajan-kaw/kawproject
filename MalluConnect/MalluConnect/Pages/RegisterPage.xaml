@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MalluConnect.Pages.RegisterPage"
+     xmlns:Common="clr-namespace:MalluConnect.Resources;assembly=MalluConnect">
+    <ContentPage.Content>
+        
+            <Grid>
+                <Image Source="VioletBlurBG.png" Aspect="AspectFill"></Image>
+            <ScrollView>
+                <Grid Padding="20, 30, 20, 20" RowSpacing="20">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="60" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+        <RowDefinition Height="Auto" />
+      </Grid.RowDefinitions>
+
+      <Image Source="logo.png" HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="0">
+      </Image>
+     <Entry Placeholder="First Name" Grid.Row="2" BackgroundColor="Transparent" HorizontalOptions="Fill" TextColor="White" Margin="5"/>
+     <Entry Placeholder="Last Name" Grid.Row="3" BackgroundColor="Transparent" HorizontalOptions="Fill" TextColor="White" Margin="5"/>
+    <Entry Placeholder="Username" Keyboard="Email" Grid.Row="4" BackgroundColor="Transparent" HorizontalOptions="Fill" TextColor="White" Margin="5"/>
+     <Entry Placeholder="Password" IsPassword="true" Grid.Row="5" BackgroundColor="Transparent" HorizontalOptions="Fill" TextColor="White" Margin="5"/>
+    <Entry Placeholder="Confirm Password" IsPassword="true" Grid.Row="6" BackgroundColor="Transparent" HorizontalOptions="Fill" TextColor="White" Margin="5"/>                
+      <StackLayout Grid.Row="7" Spacing="12" HorizontalOptions="Fill" Padding="{x:Static Common:DoubleResources.ButtonGroupPadding}">
+        <Button Text="Sign Up" BackgroundColor="#1FBED6" HorizontalOptions="Fill" TextColor="White" HeightRequest="{x:Static Common:DoubleResources.ButtonHeight}" Clicked="Register_Clicked"/>
+
+          <StackLayout>
+         <Label Text="I already have an account"  HorizontalOptions="FillAndExpand" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" VerticalOptions="FillAndExpand" HeightRequest="{x:Static Common:DoubleResources.ButtonHeight}" TextColor="White" FontSize="12">
+          <Label.GestureRecognizers>
+                <TapGestureRecognizer
+                Tapped="OnBackToLoginTextTapped"
+                NumberOfTapsRequired="1" />
+           </Label.GestureRecognizers>
+          </Label></StackLayout>
+
+      </StackLayout>
+      </Grid>
+                 </ScrollView>
+            </Grid>
+    
+ 
+    </ContentPage.Content>
+</ContentPage>
