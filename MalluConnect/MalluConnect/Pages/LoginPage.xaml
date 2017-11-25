@@ -45,6 +45,8 @@
       <StackLayout Grid.Row="4" Spacing="40" HorizontalOptions="Fill" Padding="{x:Static Common:DoubleResources.ButtonGroupPadding}">
         <Button Text="Sign In" BackgroundColor="#1FBED6" HorizontalOptions="Fill" TextColor="White" HeightRequest="{x:Static Common:DoubleResources.ButtonHeight}" Clicked="SignIn_Clicked"/>
 
+        <Button Text="Sign Up" BackgroundColor="#b5651d" HorizontalOptions="Fill" TextColor="White" HeightRequest="{x:Static Common:DoubleResources.ButtonHeight}" Clicked="OnSignUpTextTapped"/>  
+          
         <Image Source="fblogin.png" HorizontalOptions="Fill" HeightRequest="{x:Static Common:DoubleResources.FBButtonHeight}">
             <Image.GestureRecognizers>
                 <TapGestureRecognizer
@@ -52,15 +54,18 @@
                 NumberOfTapsRequired="1" />
            </Image.GestureRecognizers>
         </Image>
+
+       <!-- 
         <StackLayout>
-         <Label Text="Or click here to sign up using your email address"  HorizontalOptions="FillAndExpand" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" VerticalOptions="FillAndExpand" HeightRequest="{x:Static Common:DoubleResources.ButtonHeight}" TextColor="White" FontSize="12">
+         <Label Text="Sign Up"  HorizontalOptions="FillAndExpand" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" VerticalOptions="FillAndExpand" HeightRequest="{x:Static Common:DoubleResources.ButtonHeight}" TextColor="White" FontSize="12">
           <Label.GestureRecognizers>
                 <TapGestureRecognizer
                 Tapped="OnSignUpTextTapped"
                 NumberOfTapsRequired="1" />
-           </Label.GestureRecognizers>
-          </Label></StackLayout>
-          
+          </Label.GestureRecognizers>
+         </Label>
+        </StackLayout>
+       -->
 
       </StackLayout>
       </Grid>

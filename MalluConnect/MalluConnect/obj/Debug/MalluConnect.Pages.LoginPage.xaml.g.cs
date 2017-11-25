@@ -11,8 +11,7 @@
 namespace MalluConnect.Pages {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\vijay\\Downloads\\MalluConnect\\MalluConnect\\MalluConnect\\Pages\\LoginPage.x" +
-        "aml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\paul_\\kawproject\\MalluConnect\\MalluConnect\\Pages\\LoginPage.xaml")]
     public partial class LoginPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
