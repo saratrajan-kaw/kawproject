@@ -1,0 +1,12 @@
+C:\Users\paul_\source\repos\App5\App5\App5.UWP\obj\x86\Debug\App.g.i.cs
+C:\Users\paul_\source\repos\App5\App5\App5.UWP\obj\x86\Debug\App.g.cs
+C:\Users\paul_\source\repos\App5\App5\App5.UWP\obj\x86\Debug\MainPage.g.i.cs
+C:\Users\paul_\source\repos\App5\App5\App5.UWP\obj\x86\Debug\MainPage.g.cs
+C:\Users\paul_\source\repos\App5\App5\App5.UWP\obj\x86\Debug\XamlTypeInfo.g.cs
+C:\Users\paul_\source\repos\App5\App5\App5.UWP\obj\x86\Debug\App.xaml
+C:\Users\paul_\source\repos\App5\App5\App5.UWP\obj\x86\Debug\MainPage.xaml
+C:\Users\paul_\source\repos\App5\App5\App5.UWP\obj\x86\Debug\App.xbf
+C:\Users\paul_\source\repos\App5\App5\App5.UWP\obj\x86\Debug\MainPage.xbf
+C:\Users\paul_\source\repos\App5\App5\App5.UWP\obj\x86\Debug\XamlSaveStateFile.xml
+C:\Users\paul_\source\repos\App5\App5\App5.UWP\obj\x86\Debug\App5.UWP.C_.Users.paul_.source.repos.App5.App5.App5.MainPage.xaml.g.cs
+C:\Users\paul_\source\repos\App5\App5\App5.UWP\obj\x86\Debug\App5.UWP.C_.Users.paul_.source.repos.App5.App5.App5.App.xaml.g.cs

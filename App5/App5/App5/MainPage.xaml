@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App5"
+             x:Class="App5.MainPage">
+    <ContentPage.Content>
+        <StackLayout x:Name="rootLayout">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Text="username" Grid.Row="0" Grid.Column="0"></Label>
+                <Entry x:Name="Username"  Placeholder="Username" Keyboard="Email" BackgroundColor="Transparent" HorizontalOptions="Fill" TextColor="Black" Grid.Row="0" Grid.Column="1"/>
+                
+                <Label Text="password" Grid.Row="1" Grid.Column="0"></Label>
+                <Entry x:Name="Password" Placeholder="Password" IsPassword="True" BackgroundColor="Transparent" HorizontalOptions="Fill" TextColor="Black" Grid.Row="1" Grid.Column="1"/>
+
+                <Button Text="Sign In" Grid.Row="2" Grid.ColumnSpan="2" Clicked="Button_Clicked"></Button>
+
+            </Grid>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
