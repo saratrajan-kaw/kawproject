@@ -11,7 +11,8 @@
 namespace App5 {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\paul_\\source\\repos\\App5\\App5\\App5\\App.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\joelr\\OneDrive\\Desktop\\KAW\\kawproject\\kawproject\\App5\\App5\\App5\\App.xaml" +
+        "")]
     public partial class App : global::Xamarin.Forms.Application {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
